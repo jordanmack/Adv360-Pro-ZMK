@@ -2,19 +2,19 @@ macro_volume_down: macro_volume_down{
 compatible = "zmk,behavior-macro";
 label = "macro_volume_down";
 #binding-cells = <0>;
-bindings = <&kp C_VOL_DN>;
+bindings = <&mt C_MUTE C_VOL_DN>;
 };
 macro_volume_up: macro_volume_up{
 compatible = "zmk,behavior-macro";
 label = "macro_volume_up";
 #binding-cells = <0>;
-bindings = <&kp C_VOLUME_UP>;
+bindings = <&mt C_MUTE C_VOL_UP>;
 };
 macro_search: macro_search{
 compatible = "zmk,behavior-macro";
 label = "macro_search";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp EQUAL>;
+bindings = <&kt RIGHT_CONTROL>, <&kt RIGHT_WIN>, <&kp GRAVE>, <&kt RIGHT_CONTROL>, <&kt RIGHT_WIN>;
 };
 macro_printscreen: macro_printscreen{
 compatible = "zmk,behavior-macro";
