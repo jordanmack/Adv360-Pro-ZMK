@@ -14,7 +14,7 @@ macro_search: macro_search{
 compatible = "zmk,behavior-macro";
 label = "macro_search";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp GRAVE>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp EQUAL>;
 };
 macro_printscreen: macro_printscreen{
 compatible = "zmk,behavior-macro";
